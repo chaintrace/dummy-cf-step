@@ -1,5 +1,13 @@
 image: dummy-step
+version: 0.1
 description: Do something dumb
 maintainers:
 - name: Anton Weiss
   email: anton@otomato.link
+sources: 
+  - https://github.com/chaintrace/dummy-cf-step
+icon: https://cdn2.vectorstock.com/i/thumb-large/59/56/baby-pacifier-isolated-vector-23195956.jpg
+envs:
+  - name: PLUGIN_RESULT
+    type: optional
+    description: SUCCESS or FAILURE
