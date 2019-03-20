@@ -1,0 +1,6 @@
+TestPlugin:
+  title: Running success test
+  description: This should succeed
+  image: codefresh/dummy-cf-step
+  environment:
+  - PLUGIN_RESULT=SUCCESS
