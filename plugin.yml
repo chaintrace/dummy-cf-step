@@ -1,6 +1,6 @@
-image: dummy-step
+#image: dummy-step
 version: 0.1
-description: Do something dumb
+#description: Do something dumb
 maintainers:
 - name: Anton Weiss
   email: anton@otomato.link
